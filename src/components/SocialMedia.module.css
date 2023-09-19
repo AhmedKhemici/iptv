@@ -1,0 +1,9 @@
+.social-media{
+    height: 20rem;
+    width: 100%;
+    background-color: rgb(61, 11, 177);
+}
+
+.social-media:hover{
+    color: white;
+}

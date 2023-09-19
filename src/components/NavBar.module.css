@@ -1,0 +1,22 @@
+.header{
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(178, 178, 17);    
+    position: fixed;
+}
+
+.header:hover{
+    color: white;
+    justify-content: center;
+}
+
+ul{ 
+    padding: 0;
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+}
+
+li{
+    margin-left: 30px;
+}

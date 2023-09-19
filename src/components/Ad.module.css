@@ -1,0 +1,9 @@
+.ad{
+    height: 20rem;
+    width: 100%;
+    background-color: rgb(26, 119, 60);
+}
+
+.ad:hover{
+    color: white;
+}

@@ -1,11 +1,11 @@
 import classes from './Ad.module.css'
 
 const Ad = () => {
-    return (
-      <div>
-        Trail
-      </div>   
-    );
-  }
+  return (
+    <div className={classes.ad}>
+      Ad
+    </div>   
+  );
+}
   
-  export default Ad;
+export default Ad;

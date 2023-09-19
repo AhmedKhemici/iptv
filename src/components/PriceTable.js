@@ -2,7 +2,7 @@ import classes from './PriceTable.module.css'
 
 const PriceTable = () => {
     return (
-      <div>
+      <div className={classes['price-table']}>
         PriceTable
       </div>   
     );

@@ -2,7 +2,7 @@ import classes from './Devices.module.css'
 
 const Devices = () => {
     return (
-      <div>
+      <div className={classes.devices}>
         Devices
       </div>   
     );

@@ -1,0 +1,9 @@
+.slider{
+    height: 20rem;
+    width: 100%;
+    background-color: rgb(110, 81, 27);
+}
+
+.slider:hover{
+    color: white;
+}

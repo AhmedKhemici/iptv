@@ -2,7 +2,7 @@ import classes from './AboutUs.module.css'
 
 const AboutUs = () => {
     return (
-      <div>
+      <div className={classes['about-us']}>
         AboutUs
       </div>   
     );

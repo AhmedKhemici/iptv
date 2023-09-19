@@ -1,0 +1,9 @@
+.experience{
+    height: 20rem;
+    width: 100%;
+    background-color: rgb(140, 180, 154);
+}
+
+.experience:hover{
+    color: white;
+}

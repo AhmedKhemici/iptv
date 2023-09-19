@@ -2,7 +2,7 @@ import classes from './Trail.module.css'
 
 const Trail = () => {
     return (
-      <div>
+      <div className={classes.trail}>
         Trail
       </div>   
     );

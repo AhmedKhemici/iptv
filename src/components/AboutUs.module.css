@@ -1,0 +1,9 @@
+.about-us{
+    height: 20rem;
+    width: 100%;
+    background-color: aqua;
+}
+
+.about-us:hover{
+    color: white;
+}

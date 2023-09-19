@@ -2,10 +2,12 @@ import classes from './Slider.module.css'
 
 const Slider = () => {
     return (
-      <div>
-        Slider
-      </div>   
+      <>
+        <div className={classes.slider}>
+            Slider
+        </div>   
+      </>
     );
-  }
+}
   
-  export default Slider;
+export default Slider;
