@@ -1,11 +1,27 @@
 .header{
-    height: 3rem;
     width: 100%;
-    background-color: rgb(178, 178, 17);    
     position: fixed;
 }
 
-.header:hover{
+.contact-info{
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(178, 17, 151);
+}
+
+.contact-info:hover{
+    height: 0;
+    width: 100%;
+    
+}
+
+.nav-bar{
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(178, 178, 17);    
+}
+
+.nav-bar:hover{
     color: white;
     justify-content: center;
 }
