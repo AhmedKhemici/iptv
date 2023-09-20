@@ -1,14 +1,14 @@
 import classes from './Slider.module.css'
 
 const Slider = () => {
-    return (
-      <>
-        <div className={classes['nav-bar']}></div>
-        <div className={classes.slider}>
-            Slider
-        </div>   
-      </>
-    );
+  // const image1 = `${process.env.PUBLIC_URL}/images/slider_1.jpg`
+  return (
+    <>
+      <div className={classes.slider}>
+          {/* <img src={image1} alt='Slide'/> */}
+      </div>   
+    </>
+  );
 }
   
 export default Slider;
