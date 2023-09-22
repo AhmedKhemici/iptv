@@ -2,59 +2,65 @@ import { NavLink } from 'react-router-dom';
 import classes from './NavBar.module.css';
 import Button from './UI/Button';
 
-const MainNavigation = () => {
+const NavBar = () => {
   return (
-    <div className={classes.header}>
-      <div className={classes['contact-info']}>
-        <img src='' alt='X'/>
-        <img src='' alt='Facebook'/>
-        <img src='' alt='Instagram'/>
+      <nav className={classes['nav-bar']}>
         <div className=''>
-          <img  src='' alt='Phone'/>
-          <span>SERVICE CLIENT:</span>
-          <span>+213665824855</span>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? classes.active : undefined
+            }
+            end
+          >
+          <img src={`${process.env.PUBLIC_URL}/img/logo.png`} className={classes.logo} alt='Logo'/>
+          </NavLink>
         </div>
-      </div>
-      <header className={classes['nav-bar']}>
-      <NavLink
-                  to="/"
-                  className={({ isActive }) =>
-                    isActive ? classes.active : undefined
-                  }
-                  end
-                >
-                <img src={`${process.env.PUBLIC_URL}/img/logo.png`} className={classes.logo} alt='Logo'/>
-        </NavLink>
-        <nav>
-          <ul>
-            <li>
-            </li>
-            <li>
-              <NavLink
-                to="/Accueil"
-                className={({ isActive }) =>
-                  isActive ? classes.active : undefined
-                }
-              >
-                Accueil
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/Offers"
-                className={({ isActive }) =>
-                  isActive ? classes.active : undefined
-                }
-              >
-                Offers
-              </NavLink>
-            </li>
-              <Button className={classes.button}>Espace Client</Button>
-          </ul>
-        </nav>
-      </header>
-    </div>
+        <ul>
+          <li>
+            <NavLink
+              to="/Pricing"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              PRICING
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/FAQ"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              FAQ
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/contact-us"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              CONTACT US
+            </NavLink>  
+          </li>          
+          <li>
+            <NavLink
+              to="/contact-us"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              CONTACT US
+            </NavLink>
+          </li>
+            <Button className={classes.button}>Free Trail</Button>
+        </ul>
+      </nav>
   );
 }
 
-export default MainNavigation;
+export default NavBar;
