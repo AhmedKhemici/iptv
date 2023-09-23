@@ -2,14 +2,12 @@
     height: 3rem;
     background-color: rgb(249, 249, 249);    
     padding: 40px;
-    
     width: 100%;
     align-items: center;
 }
 
 .container{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0 10%;
     display: flex;
 }
 

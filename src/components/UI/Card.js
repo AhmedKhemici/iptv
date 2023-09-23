@@ -1,8 +1,9 @@
 import classes from './Card.module.css'
 
 const Card = ( props) => {
-    return (
-      <div>
+  const style = classes.Card + [!props.className?'':' '+props.className];
+  return (
+      <div className={style}>
         {props.children}
       </div>   
     );

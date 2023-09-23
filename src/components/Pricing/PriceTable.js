@@ -1,9 +1,12 @@
 import classes from './PriceTable.module.css'
+import Pricing from './Pricing';
 
 const PriceTable = () => {
     return (
       <div className={classes['price-table']}>
-        PriceTable
+        <Pricing />
+        <Pricing />
+        <Pricing />
       </div>   
     );
   }
