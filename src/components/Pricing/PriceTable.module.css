@@ -1,10 +1,10 @@
 .price-table{
-    width: 100%;
-    background-color: rgb(255, 0, 157);
+    background-color: rgb(231, 62, 192);
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
     box-sizing: border-box;
+    gap: 10px;
+    justify-content: center;
 }
 
 .price-table:hover{

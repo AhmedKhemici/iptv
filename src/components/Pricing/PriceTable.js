@@ -1,13 +1,14 @@
 import classes from './PriceTable.module.css'
 import Pricing from './Pricing';
+import Container from '../UI/Container';
 
 const PriceTable = () => {
     return (
-      <div className={classes['price-table']}>
+      <Container className={classes['price-table']}>
         <Pricing />
         <Pricing />
         <Pricing />
-      </div>   
+      </Container>   
     );
   }
   

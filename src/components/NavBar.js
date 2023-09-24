@@ -1,10 +1,12 @@
 import { NavLink } from 'react-router-dom';
 import classes from './NavBar.module.css';
+import Container from './UI/Container';
 import Button from './UI/Button';
 
 const NavBar = () => {
   return (
-      <div className={classes['nav-bar']}>
+      <nav className={classes['nav-bar']}>
+        <Container>
         <div className={classes.container}>
           <div className="logo">
             <NavLink
@@ -61,7 +63,8 @@ const NavBar = () => {
           </ul>
           <Button className={classes.button}>Free Trail</Button>
         </div>
-      </div>
+        </Container>
+      </nav>
   );
 }
 

@@ -13,7 +13,7 @@ import Container from '../components/UI/Container';
 const HomePage = () => {
 
     return (
-      <Container>
+      <>
         <Slider />
         <Publicity />
         <Devices />
@@ -23,7 +23,7 @@ const HomePage = () => {
         <Blog />
         <Trail />
         <SocialMedia />
-      </Container>
+      </>
     );
   }
   

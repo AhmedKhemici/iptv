@@ -1,9 +1,12 @@
 .slider{
     background-size: cover;
-    height: 100rem;
-    width: 100%;
-    background-color: rgb(110, 81, 27);
     background-image: url('../../public/img/slider_1.jpg');
     background-repeat: no-repeat;
     background-position: center top;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.element{
+    height: 50rem;
 }

@@ -1,18 +1,16 @@
 .nav-bar{
     background-color: rgb(241, 241, 231);    
-    max-height: 7rem;
-    width: 100%;
+    max-height: 6rem;
     padding: 3px;
+    overflow: hidden;
 }
 
 .container{
-    margin-left: 10%;
-    margin-right: 10%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
     align-items: center;
-    box-sizing: content-box;
 }
 
 ul{ 
@@ -21,7 +19,11 @@ ul{
     list-style: none;
     align-items: center;
     padding-left: 0;
+}
 
+ul>li>a{
+    text-decoration: none;
+    color: black
 }
 
 .button{
