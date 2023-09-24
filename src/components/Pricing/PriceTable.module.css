@@ -2,7 +2,9 @@
     width: 100%;
     background-color: rgb(255, 0, 157);
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
+    box-sizing: border-box;
 }
 
 .price-table:hover{

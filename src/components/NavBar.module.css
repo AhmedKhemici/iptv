@@ -1,28 +1,31 @@
 .nav-bar{
-    height: 3rem;
-    background-color: rgb(249, 249, 249);    
-    padding: 40px;
+    background-color: rgb(241, 241, 231);    
+    max-height: 7rem;
     width: 100%;
-    align-items: center;
+    padding: 3px;
 }
 
 .container{
-    margin: 0 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    box-sizing: content-box;
 }
 
 ul{ 
-    margin: auto;
+    gap: 20px;
     display: flex;
     list-style: none;
     align-items: center;
-}
+    padding-left: 0;
 
-li{
-    margin-left: 30px;
 }
 
 .button{
+    height: 30px;
     border: solid 3px;
     border-color: rgb(100, 25, 199);
     color:#3a1564;

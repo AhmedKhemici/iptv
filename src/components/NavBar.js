@@ -4,7 +4,7 @@ import Button from './UI/Button';
 
 const NavBar = () => {
   return (
-      <nav className={classes['nav-bar']}>
+      <div className={classes['nav-bar']}>
         <div className={classes.container}>
           <div className="logo">
             <NavLink
@@ -58,10 +58,10 @@ const NavBar = () => {
                 CONTACT US
               </NavLink>
             </li>
-              <Button className={classes.button}>Free Trail</Button>
           </ul>
+          <Button className={classes.button}>Free Trail</Button>
         </div>
-      </nav>
+      </div>
   );
 }
 
