@@ -1,11 +1,13 @@
 .nav-bar{
-    background-color: rgb(241, 241, 231);    
-    max-height: 6rem;
-    padding: 3px;
-    overflow: hidden;
+    background-color: rgb(241, 241, 231); 
+    width: 100%;   
+    height: 6rem;
+    position: fixed;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.31);
 }
 
 .container{
+    margin: 15px 0;
     gap: 50px;
     align-items: center;
 }

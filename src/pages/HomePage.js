@@ -1,4 +1,4 @@
-import Slider from '../components/Slider';
+import BackGround from '../components/BackGround';
 import Features from '../components/Features/Features';
 import Devices from '../components/Devices';
 import Experience from '../components/Experience';
@@ -7,14 +7,13 @@ import HowItWorks from '../components/HowItWorks/HowItWorks';
 import Blog from '../components/Blog';
 import Trail from '../components/Trail';
 import SocialMedia from '../components/SocialMedia';
-import Container from '../components/UI/Container';
 
 
 const HomePage = () => {
 
     return (
       <>
-        <Slider />
+        <BackGround />
         <Features />
         <Devices />
         <Experience />

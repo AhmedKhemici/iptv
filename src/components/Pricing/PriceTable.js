@@ -5,7 +5,7 @@ import Container from '../UI/Container';
 const PriceTable = () => {
   const PriceTable = [
     {
-      
+
 
     },
     {
@@ -16,11 +16,14 @@ const PriceTable = () => {
     }
   ];
   return (
-    <Container className={classes['price-table']}>
-      <Pricing />
-      <Pricing />
-      <Pricing />
-    </Container>   
+    <>
+      <h1 className={classes.header}>Choose your plan</h1>
+      <Container className={classes['price-table']}>
+        <Pricing />
+        <Pricing />
+        <Pricing />
+      </Container>   
+    </>
   );
 }
   
