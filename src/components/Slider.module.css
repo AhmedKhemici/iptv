@@ -1,10 +1,7 @@
 .slider{
-    background-size: cover;
     background-image: url('../../public/img/slider_1.jpg');
     background-repeat: no-repeat;
-    background-position: center top;
     background-size: 100%;
-    background-position: center center;
 }
 
 .element{

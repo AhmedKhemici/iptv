@@ -1,9 +1,9 @@
 import Slider from '../components/Slider';
-import Publicity from '../components/Ad';
+import Features from '../components/Features/Features';
 import Devices from '../components/Devices';
 import Experience from '../components/Experience';
 import PriceTable from '../components/Pricing/PriceTable';
-import AboutUs from '../components/AboutUs';
+import HowItWorks from '../components/HowItWorks/HowItWorks';
 import Blog from '../components/Blog';
 import Trail from '../components/Trail';
 import SocialMedia from '../components/SocialMedia';
@@ -15,11 +15,11 @@ const HomePage = () => {
     return (
       <>
         <Slider />
-        <Publicity />
+        <Features />
         <Devices />
         <Experience />
         <PriceTable />
-        <AboutUs />
+        <HowItWorks />
         <Blog />
         <Trail />
         <SocialMedia />

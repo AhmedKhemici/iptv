@@ -1,0 +1,21 @@
+.feature{
+    width: 22rem;
+    height: 22rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.feature>img{
+    width: 65px;
+    height: 65px;
+}
+
+.feature>h1{
+    line-height: 29px; 
+    font-size: 27px;
+}
+
+.feature>span{
+    line-height: 29px;
+    font-size: 21px;
+}
