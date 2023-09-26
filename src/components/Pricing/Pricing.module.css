@@ -1,13 +1,13 @@
 .pricing{
     margin: 20px 0;
-    height: 50rem;
+    height: 40rem;
     width: 17rem;
     background-color: white;
-    border: 3px solid black; 
+    border: 6px solid rgba(0, 0, 0, 0.595); 
 }
 
 .date{
-    border-radius: 12px;
+    border-radius: 9px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     border-color: black;
@@ -17,11 +17,32 @@
 }
 
 .price{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    justify-content: center;
+    margin-top: 10px;
+}
 
+.price>div{
+    font-size: 19.5px;
 }
 
 .options{
-    
+    justify-content: center;
+}
+
+.option{
+    text-align: center;
+    width: 240px;
+    height: 40px;
+    margin: 15px auto 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.option:nth-child(7){
+    border-bottom: 0;
 }
 
 .Button{

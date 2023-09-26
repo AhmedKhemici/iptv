@@ -5,23 +5,32 @@ import Container from '../UI/Container';
 const PriceTable = () => {
   const PriceTable = [
     {
-
-
+      date: "1 Month",
+      price: "11",
     },
     {
-
+      date: "3 Month",
+      price: "21",
     },
     {
-
+      date: "6 Month",
+      price: "34",
+    },
+    {
+      date: "12 Month",
+      price: "49",
     }
   ];
   return (
     <>
       <h1 className={classes.header}>Choose your plan</h1>
       <Container className={classes['price-table']}>
-        <Pricing />
-        <Pricing />
-        <Pricing />
+        {PriceTable.map((pricing)=>{
+          return  <Pricing
+                    date={pricing.date}
+                    price={pricing.price}
+                  />
+        })}
       </Container>   
     </>
   );
