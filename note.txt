@@ -1,5 +1,0 @@
-i need to to learn sliders.
-need to learn animations.
-need to learn mobile menu button.
-need to learn more css and scss. 
-need to learn to structure my react code.
