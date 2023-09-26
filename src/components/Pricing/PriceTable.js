@@ -24,6 +24,7 @@ const PriceTable = () => {
   return (
     <>
       <h1 className={classes.header}>Choose your plan</h1>
+      <hr/>
       <Container className={classes['price-table']}>
         {PriceTable.map((pricing)=>{
           return  <Pricing

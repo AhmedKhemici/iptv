@@ -6,14 +6,28 @@
     border: 6px solid rgba(0, 0, 0, 0.595); 
 }
 
+@media only screen and (max-width: 600px) {
+    .pricing {
+        margin: 20px 0;
+        height: 40rem;
+        width: 24rem;
+        background-color: white;
+        border: 6px solid rgba(0, 0, 0, 0.595); 
+    }
+}
+
 .date{
+    display: block;
     border-radius: 9px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     border-color: black;
     background-color: aqua;
-    height: 70px;
+    max-height: 70px;
+    font-size: 30px;
     text-align: center;
+    padding: 20px;
+    font-weight: bold;
 }
 
 .price{
@@ -23,6 +37,7 @@
     font-size: 65px;
     justify-content: center;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 .price>div{
@@ -46,5 +61,24 @@
 }
 
 .Button{
-    
+    border: rgba(0, 0, 0, 0.595) solid;
+    border-radius: 9px;
+    font-size: 20px;
+    background-color: aqua;
+    width: 10rem;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.Button:hover{
+    color: rgb(14, 74, 194);
+}
+
+.pricing>span{
+    display: block;
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: center;
 }

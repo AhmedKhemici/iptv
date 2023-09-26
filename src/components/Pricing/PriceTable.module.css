@@ -6,3 +6,8 @@
 .price-table{
     gap: 20px;
 }
+
+.header + hr{
+    border-bottom: 5px solid #15b4d7;
+    width: 60px;
+}

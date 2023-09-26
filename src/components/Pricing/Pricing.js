@@ -7,7 +7,7 @@ const Pricing = ( props) => {
   return (
     <Card className={classes.pricing}>
       <div className={classes.date}>
-        {props.date}
+        <div>{props.date}</div>
       </div>
       <div className={classes.price}>
         <div>€</div>
@@ -23,7 +23,6 @@ const Pricing = ( props) => {
         <div className={classes.option}><img src='' /><span>Fast Delivery</span></div>
         <div className={classes.option}><img src='' /><span>7 days money back guarantee</span></div>
       </div>
-      
       <Button className={classes.Button}>CHOOSE PLAN</Button>
       <span>Support 24/7</span>
     </Card>   
