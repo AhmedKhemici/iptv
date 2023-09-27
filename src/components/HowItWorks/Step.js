@@ -4,7 +4,9 @@ const Step = ( props) => {
   
   return (
     <div className={classes.step}>
-        <img src={`${process.env.PUBLIC_URL}/img/${props.icon}.png`} alt="image"/>
+        <div>
+          <img src={`${process.env.PUBLIC_URL}/img/${props.icon}.png`} alt="image"/>
+        </div>
         <h1>{props.header}</h1>
         <span>{props.content}</span>
     </div>

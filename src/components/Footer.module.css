@@ -1,9 +1,6 @@
 .footer{
-    height: 20rem;
-    width: 100%;
-    background-color: rgb(62, 10, 4);
-}
-
-.footer:hover{
-    color: white;
+    margin: 18px;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
 }

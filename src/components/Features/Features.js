@@ -1,5 +1,4 @@
 import Feature from './Feature';
-import Container from '../UI/Container';
 import classes from './Features.module.css';
 
 const Features = () => {
@@ -33,7 +32,7 @@ const Features = () => {
       ]
 
   return (
-    <Container className={classes.features}>
+    <div className={classes.features}>
       {features.map((feature)=>{
         return <Feature 
                   icon={feature.icon} 
@@ -41,7 +40,7 @@ const Features = () => {
                   content={feature.content} 
                 />
       })}
-    </Container>   
+    </div>   
   );
 }
   

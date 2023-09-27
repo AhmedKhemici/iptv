@@ -8,7 +8,7 @@
 
 @media only screen and (max-width: 600px) {
     .pricing {
-        margin: 20px 0;
+        margin: 20px 5px;
         height: 40rem;
         width: 24rem;
         background-color: white;

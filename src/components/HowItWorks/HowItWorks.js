@@ -1,34 +1,24 @@
 import Step from './Step';
-import Container from '../UI/Container';
 import classes from './HowItWorks.module.css'
 
 const HowItWorks = () => {
   const steps = [
         {
-          icon:'care',
-          header:'Channels from 115 countries worldwide',
-          content:`You can watch TV
-          channels from around the world 
-          (Netherlands / Belgium / Germany / UK 
-          / Spain / Portugal / Poland / Italy 
-          / Israel / Ex-Yu / Hindi / Arabic 
-          / Turkey…)`
+          icon:'info-box-1',
+          header:'1. Place your order',
+          content:`Place your order by choosing your preferred 
+          subscription period : 1, 3, 6 or 12 months.`
         },
         {
-          icon:'wallet',
-          header:'7 days money back guarantee',
-          content:`Within 7 days of your purchase you 
-          have the option to cancel our IPTV subscription 
-          if you are not satisfied. Then you will receive 
-          a full refund from us.`
+          icon:'info-box-2',
+          header:'2. Get your account',
+          content:`This process can take 15 to 30 minutes.Please 
+          check your inbox and your spam folder.`
         },
         {
-          icon:'happy-face',
-          header:'High Quality HD/FHD/4K/8K',
-          content:`We offer all image qualities to view our 
-          iptv service everywhere, regardless of your network 
-          speed on: Mobile / TV / Android box / PC …
-          `
+          icon:'info-box-3',
+          header:'3. Enjoy your IPTV service!',
+          content:`Enjoy all channels, films and series now!`
         },
       ]
 
@@ -36,7 +26,7 @@ const HowItWorks = () => {
     <>
       <h1 className={classes.header}>How does it work?</h1>
       <hr/>
-      <Container className={classes['how-it-works']}>
+      <div className={classes['how-it-works']}>
         {steps.map((step)=>{
           return <Step 
                     icon={step.icon} 
@@ -44,7 +34,7 @@ const HowItWorks = () => {
                     content={step.content} 
                   />
         })}
-      </Container>   
+      </div>   
     </>
   );
 }

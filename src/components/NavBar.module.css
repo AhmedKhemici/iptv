@@ -1,18 +1,23 @@
 .nav-bar{
-    background-color: rgb(241, 241, 231); 
-    width: 100%;   
-    height: 6rem;
+    width: 100%; 
     position: fixed;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.31);
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.31);
 }
 
 .container{
-    margin: 15px 0;
-    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 100%; 
+    height: 6rem;
+    background-color: rgb(241, 241, 231);
+    gap: 70px;
     align-items: center;
+    padding: 0 10px;
 }
 
-ul{ 
+.menu>ul{ 
     gap: 20px;
     display: flex;
     list-style: none;
@@ -20,16 +25,17 @@ ul{
     padding-left: 0;
 }
 
-ul>li>a{
+a{
     text-decoration: none;
     color: black
 }
 
 .button{
-    height: 30px;
+    height: 35px;
     border: solid 3px;
     border-color: rgb(100, 25, 199);
     color:#3a1564;
+    text-align: center;
 }
 
 .button:hover{
@@ -39,4 +45,58 @@ ul>li>a{
 
 .logo{
     height: 4rem;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.menu-button{
+    display: none;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .container{
+        justify-content: space-between;
+        position: absolute;
+        top: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .menu-mobile{
+        width: 100%;
+        height: 5.5rem;
+        display: block;
+        background-color: aquamarine;
+        position: relative;
+        top: 0;
+    }
+
+    .menu-mobile>ul{
+        list-style: none;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .menu-mobile>ul{
+        list-style: none;
+        text-align: center;
+        padding-left: 0;
+        margin: 0;
+    }
 }

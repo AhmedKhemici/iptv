@@ -1,6 +1,5 @@
 import classes from './PriceTable.module.css'
 import Pricing from './Pricing';
-import Container from '../UI/Container';
 
 const PriceTable = () => {
   const PriceTable = [
@@ -25,14 +24,14 @@ const PriceTable = () => {
     <>
       <h1 className={classes.header}>Choose your plan</h1>
       <hr/>
-      <Container className={classes['price-table']}>
+      <div className={classes['price-table']}>
         {PriceTable.map((pricing)=>{
           return  <Pricing
                     date={pricing.date}
                     price={pricing.price}
                   />
         })}
-      </Container>   
+      </div>   
     </>
   );
 }
