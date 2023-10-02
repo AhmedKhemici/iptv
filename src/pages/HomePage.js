@@ -3,9 +3,9 @@ import Features from '../components/Features/Features';
 import Advertise from '../components/Advertise';
 import PriceTable from '../components/Pricing/PriceTable';
 import HowItWorks from '../components/HowItWorks/HowItWorks';
-import Blog from '../components/Blog';
-import Trail from '../components/Trail';
-import SocialMedia from '../components/SocialMedia';
+import FAQ from '../components/FAQ/FAQ';
+import Communication from '../components/Communication';
+import Legal from '../components/Legal';
 
 
 const HomePage = () => {
@@ -18,9 +18,9 @@ const HomePage = () => {
         <Advertise reverse={true}/>
         <PriceTable />
         <HowItWorks />
-        <Blog />
-        <Trail />
-        <SocialMedia />
+        <FAQ />
+        <Communication />
+        <Legal />
       </>
     );
   }

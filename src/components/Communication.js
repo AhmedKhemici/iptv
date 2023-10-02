@@ -1,4 +1,4 @@
-import classes from './Trail.module.css'
+import classes from './Communication.module.css'
 
 const Trail = () => {
     return (

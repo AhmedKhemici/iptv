@@ -1,4 +1,4 @@
-import classes from './SocialMedia.module.css'
+import classes from './Legal.module.css'
 
 const SocialMedia = () => {
     return (
