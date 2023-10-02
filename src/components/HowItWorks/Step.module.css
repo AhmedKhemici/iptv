@@ -1,14 +1,10 @@
 .step{
-    width: 22rem;
+    width: 20rem;
+    height: 15rem;
     justify-content: center;
     text-align: center;
     border: 1px solid;
-    padding: 60px;
-}
-
-.step>div{
-    width: 100px;
-    height: 100px;
+    padding: 10px 20px;
 }
 
 .step>img{

@@ -1,7 +1,6 @@
 import BackGround from '../components/BackGround';
 import Features from '../components/Features/Features';
-import Devices from '../components/Devices';
-import Experience from '../components/Experience';
+import Advertise from '../components/Advertise';
 import PriceTable from '../components/Pricing/PriceTable';
 import HowItWorks from '../components/HowItWorks/HowItWorks';
 import Blog from '../components/Blog';
@@ -15,8 +14,8 @@ const HomePage = () => {
       <>
         <BackGround />
         <Features />
-        <Devices />
-        <Experience />
+        <Advertise reverse={false} />
+        <Advertise reverse={true}/>
         <PriceTable />
         <HowItWorks />
         <Blog />
