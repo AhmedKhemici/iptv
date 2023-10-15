@@ -9,13 +9,12 @@ import Legal from '../components/Legal';
 
 
 const HomePage = () => {
-
     return (
       <>
         <BackGround />
         <Features />
-        <Advertise reverse={false} />
-        <Advertise reverse={true}/>
+        <Advertise reverse={-1} />
+        <Advertise reverse={1} />
         <PriceTable />
         <HowItWorks />
         <FAQ />
